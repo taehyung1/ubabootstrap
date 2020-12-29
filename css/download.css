@@ -3,6 +3,46 @@
 #download{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 14px;
-  padding-left: 45%;
+  text-align: center;
   padding-top: 6%;
+}
+
+div#download1{
+  position: relative;
+  margin-left: 38%;
+  margin-top: 5%;
+  width: 300px;
+  height: 50px;
+  background-color: #699eff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color : #ffffff;
+  border-radius: 3px;
+}
+
+div#download1 span{
+  position:absolute;top:50%;left:50%;transform: translate(-50%, -50%)
+}
+
+div#macos{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10px;
+  color: #7c8390;
+  text-align: center;
+  margin-top: 2%;
+
+}
+
+div#main{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #699eff;
+  text-align: center;
+  margin-top: 2%;
+}
+
+img#image{
+  margin-left: 20%;
+  margin-top: 5%;
 }
