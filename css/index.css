@@ -18,7 +18,7 @@ body{
   }
 }
 
-a { text-decoration:none ; color:#ffffff}
+{ }
 
 
 .col-sm-3{
@@ -29,7 +29,7 @@ a { text-decoration:none ; color:#ffffff}
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
 
-}
+  }
 
 div#email{
   padding-left: 8%;
@@ -83,6 +83,7 @@ input[type="password"]{
 }
 
 div#loginA{
+
   position: relative;
   margin-left: 8%;
   margin-top: 2%;
@@ -94,11 +95,19 @@ div#loginA{
   font-weight: 500;
   color : #ffffff;
   border-radius: 3px;
+
+
 }
 
 div#loginA span{
   position:absolute;top:50%;left:50%;transform: translate(-50%, -50%)
+
 }
+div#loginA a{
+  text-decoration:none ;
+  color : #ffffff;
+}
+
 
 div#passwordA{
 
@@ -161,4 +170,9 @@ div#noaccount span{
   font-size: 14px;
   font-family: "Noto Sans KR";
   color: #699eff;
+}
+
+div#noaccount a
+{
+  text-decoration:none ;
 }

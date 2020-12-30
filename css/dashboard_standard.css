@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
+
+body{
+  background-color: #f4f6fa;
+}
+
+.container-fluid{
+  padding-left: 15%;
+}
+
+img{
+  margin-left: 2%;
+}
+
+div#intro.container-fluid{
+  width: 1080px;
+  height: 180px;
+  background-color: #e1ecff;
+}
+
+div#hello{
+  width: 185px;
+  height: 29px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3f84ff;
+}
+
+div#weather{
+  width: 252px;
+  padding-top: 5%;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  color: #252525;
+}
+
+img#person{
+  position: relative;
+  left: 350%;
+  bottom: 100%;
+
+}
